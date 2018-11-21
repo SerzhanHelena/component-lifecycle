@@ -1,0 +1,14 @@
+.btn-up {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.form {
+  margin: 0 auto;
+  font-size: 25px;
+  width: 30%;
+  background: rgba(255, 244, 92, 0.3);
+}
+
+.content {
+  text-align: center;
+}

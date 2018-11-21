@@ -1,0 +1,13 @@
+<div class="form">
+<div class="content">
+<mat-form-field>
+<input matInput  type="text" [(ngModel)]="name">
+</mat-form-field>
+<span *ngFor="let list of skillsData; let i = index">
+<h4> {{name}} {{list.name}} skill is {{list.value }}
+<app-skill-item (onChanged)="onChanged($event, i)"></app-skill-item>
+</h4>
+</span>
+<h3>Total skills: {{totalSum}}</h3>
+</div>
+</div>
